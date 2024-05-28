@@ -24,7 +24,7 @@ export default {
   },
   computed: {
     filteredGamemodes() {
-      return this.gamemodes.filter(gamemode => !["Onboarding", "The Range"].includes(gamemode.displayName));
+      return this.gamemodes.filter(gamemode => !["Onboarding", "The Range", "TUTORIAL"].includes(gamemode.displayName));
     }
   },
   mounted() {
